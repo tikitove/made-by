@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'sjhxans_seriferregular';
-    src: url('sjohaxansserifer-regular-webfont.woff2') format('woff2'),
-         url('sjohaxansserifer-regular-webfont.woff') format('woff');
+    font-family: 'sjohaxans_seriferregular';
+    src: url('https://github.com/tikitove/made-by/blob/gh-pages/sjohaxansserifer-regular-webfont.woff2') format('woff2'),
+         url("https://github.com/tikitove/made-by/blob/gh-pages/sjohaxansserifer-regular-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +20,7 @@ header h2{
 h1{
     font-size: 90px;
     color: white;
-    font-family: 'sjhxans_seriferregular'
+    font-family: 'sjohaxans_seriferregular'
     margin: -32px;
 
 }
