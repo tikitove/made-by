@@ -1,46 +1,83 @@
-
-    
+html, body{
+    font-family: 'Josefin Slab', serif;
+    padding: 0px; margin: 0
+}
 header{
     background-color:#B9DDE2;
-    padding:40px;
+    padding:0px;
     text-align: center
+}
+
+header img{
+    border-radius: 1050px;
+    width: 600px;
+    height: 600px;
+    margin-bottom: -90px;
+      
 }
 header h2{
     font-size: 80px;
-    font-family: 'Sue Ellen Francisco', cursive;
+    font-family: 'Josefin Slab', serif;
     text-transform: uppercase;
-    color: white
+    color: white;
+    margin-bottom: -130px
 }
 h1{
     font-size: 150px;
     color: black;
-    font-family: 'sjhxans_seriferregular', Arial, sans-serif;
-    margin: -32px;
-    letter-spacing: 10px;
-
+    font-family: 'IM Fell English SC', serif;, 
+    margin: -50px; 
 }
+
 h2{
     font font-size: 50px;
-    font-family: 'helvetica';
+    font-family: 'Josefin Slab', serif;
     text-transform: uppercase;
-    
-}
-header img{
-    border-radius: 750px;
-    
-    
+    text-align: center
 }
 
-@font-face {
-    font-family: 'sjhxans_seriferregular';
-    src: url('sjohaxansserifer-regular-webfont.woff2') format('woff2'),
-         url('sjohaxansserifer-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.content{
+    max-width: 600px;
+    margin: auto;
+    padding:0 20px;
 }
-/*  <header>
-            <img src="tikitove.png">
-            <h2>made by</h2>
-            <h1>TIKITOVE</h1>
+img.big-image{
+    max-width: 100%;
+}
+p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    font-weight: "semi-bold";
+    text-align: justify
+}
+p.caption{
+    font-size: 14px;
+    font-style: italic;
+    color: lightgray;   
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: center
+}
 
-        </header>*
+a{
+    color:#B9DDE2;
+    text-decoration: none
+}
+footer{
+    background-color: #4A4A49;
+    padding: 20px;
+    color:white
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 10px
+}
+/*  
+
+    font-family: 'IM Fell English SC', serif;
+
+    font-family: 'Josefin Slab', serif;
+
+*
