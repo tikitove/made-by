@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'sjhxans_seriferregular';
+    src: url('sjohaxansserifer-regular-webfont.woff2') format('woff2'),
+         url('sjohaxansserifer-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+header{
+    background-color:#B9DDE2;
+    padding:40px;
+    text-align: center
+}
+header h2{
+    font-size: 80px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-transform: uppercase;
+    color: white
+}
+h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'sjhxans_seriferregular'
+    margin: -32px;
+
+}
+h2{
+    font font-size: 50px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-transform: uppercase;
+    
+}
+header img{
+    border-radius: 750px;
+    
+}
+/*  <header>
+            <img src="tikitove.png">
+            <h2>made by</h2>
+            <h1>TIKITOVE</h1>
+
+        </header>*
