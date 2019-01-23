@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'sjohaxans_seriferregular';
-    src: url('https://github.com/tikitove/made-by/blob/gh-pages/sjohaxansserifer-regular-webfont.woff2') format('woff2'),
-         url("https://github.com/tikitove/made-by/blob/gh-pages/sjohaxansserifer-regular-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
     
 header{
     background-color:#B9DDE2;
@@ -18,21 +12,31 @@ header h2{
     color: white
 }
 h1{
-    font-size: 90px;
-    color: white;
-    font-family: 'sjohaxans_seriferregular'
+    font-size: 150px;
+    color: black;
+    font-family: 'sjhxans_seriferregular', Arial, sans-serif;
     margin: -32px;
+    letter-spacing: 10px;
 
 }
 h2{
     font font-size: 50px;
-    font-family: 'Sue Ellen Francisco', cursive;
+    font-family: 'helvetica';
     text-transform: uppercase;
     
 }
 header img{
     border-radius: 750px;
     
+    
+}
+
+@font-face {
+    font-family: 'sjhxans_seriferregular';
+    src: url('sjohaxansserifer-regular-webfont.woff2') format('woff2'),
+         url('sjohaxansserifer-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 /*  <header>
             <img src="tikitove.png">
